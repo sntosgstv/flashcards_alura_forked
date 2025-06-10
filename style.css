@@ -5,8 +5,8 @@
 }
 
 body {
-    background: url('img/bg-desktop.webp');
-    font-family: Bai Jamjuree;
+    background: linear-gradient(to bottom, #2e2e2e, #bfbfbf);
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 #container {
@@ -27,7 +27,6 @@ body {
 .cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
-    /* background-color: aquamarine; */
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
@@ -99,7 +98,7 @@ footer p {
 @media (max-width: 560px) {
     
     body {
-        background: url('img/bg-mobile.webp'), no-repeat cover;
+        background: black;
     }
 
     .cartao {
